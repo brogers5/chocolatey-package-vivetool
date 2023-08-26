@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>vivetool</id>
-    <version>0.3.3</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-vivetool/tree/v0.3.3</packageSourceUrl>
-    <owners>sublym0nal</owners>
-    <title>ViVeTool</title>
-    <authors>thebookisclosed</authors>
-    <projectUrl>https://github.com/thebookisclosed/ViVe</projectUrl>
-    <!--<iconUrl>No icon is available for use</iconUrl>-->
-    <copyright>Copyright © @thebookisclosed 2023</copyright>
-    <licenseUrl>https://github.com/thebookisclosed/ViVe/blob/v0.3.3/LICENSE</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/thebookisclosed/ViVe/tree/v0.3.3</projectSourceUrl>
-    <docsUrl>https://github.com/thebookisclosed/ViVe/wiki</docsUrl>
-    <!--<mailingListUrl>No forum/mailing list is available</mailingListUrl>-->
-    <bugTrackerUrl>https://github.com/thebookisclosed/ViVe/issues</bugTrackerUrl>
-    <tags>vivetool vive windows feature toggle flag insider cli foss</tags>
-    <summary>Console app for using Windows feature control APIs</summary>
-    <description><![CDATA[
+
 ---
 
 ### [choco://vivetool](choco://vivetool)
@@ -65,17 +44,3 @@ Commands can be used along with /? to view more information about usage
 ## Package Notes
 
 The feature name dictionary is maintained independently of the application. Therefore, the dictionary as packaged with the application may be outdated. Consider using the `/dictupdate` switch after installation to ensure you're working with an up-to-date dictionary.
-]]></description>
-    <releaseNotes>https://github.com/thebookisclosed/ViVe/releases/tag/v0.3.3</releaseNotes>
-    <dependencies>
-      <dependency id="chocolatey-os-dependency.extension" version="0.0.1" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="tools\chocolateybeforemodify.ps1" target="tools" />
-    <file src="tools\chocolateyinstall.ps1" target="tools" />
-    <file src="tools\ViVeTool-v*.zip" target="tools" />
-    <file src="tools\LICENSE.txt" target="tools" />
-    <file src="tools\VERIFICATION.txt" target="tools" />
-  </files>
-</package>

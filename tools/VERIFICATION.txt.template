@@ -1,23 +1,23 @@
-VERIFICATION
+﻿VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 The packaged Windows portable archive is available for independent download via the
 Releases page on ViVeTool's GitHub repository. A download link for the packaged version
 is included at the following URL:
-https://github.com/thebookisclosed/ViVe/releases/tag/v0.3.3
+%tagReleaseUrl%
 
 For convenience, this is a direct URL to the relevant asset:
-https://github.com/thebookisclosed/ViVe/releases/download/v0.3.3/ViVeTool-v0.3.3.zip
+%archiveUrl%
 
-The following PowerShell command will print a calculated SHA256 hash:
+The following PowerShell command will print a calculated %checksumType% hash:
 
-    (Get-FileHash -Path ViVeTool-v0.3.3.zip -Algorithm SHA256).Hash
+    (Get-FileHash -Path %archiveFileName% -Algorithm %checksumType%).Hash
 
 This command should be executed against an independently downloaded archive, as well
 as the copy distributed with the package. Both hash values should be identical. A
 matching hash value should confirm that no corruption or tampering has occurred
 during this package's generation process.
 
-For reference, the following SHA256 hash was calculated during the package's automated creation:
-59D1E792EDCC001A319C16435A03D203975BF50EB38BD55CA34370900606F9F0
+For reference, the following %checksumType% hash was calculated during the package's automated creation:
+%checksumValue%
