@@ -17,7 +17,7 @@ function global:au_BeforeUpdate($Package) {
 }
 
 function global:au_AfterUpdate($Package) {
-    $licenseUri = "https://raw.githubusercontent.com/$($owner)/$($repository)/v$($Latest.Version)/LICENSE"
+    $licenseUri = "https://raw.githubusercontent.com/$($owner)/$($repository)/v$($Latest.SoftwareVersion)/LICENSE"
     $licenseContents = Invoke-WebRequest -Uri $licenseUri -UseBasicParsing
 
     Set-Content -Path 'tools\LICENSE.txt' -Value "From: $licenseUri`r`n`r`n$licenseContents" -NoNewline
