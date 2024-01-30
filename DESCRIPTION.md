@@ -1,12 +1,3 @@
-
----
-
-### [choco://vivetool](choco://vivetool)
-
-To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support](https://community.chocolatey.org/packages/choco-protocol-support)
-
----
-
 ## ViVeTool
 
 ViVeTool is an open-source command-line application for Windows power users that enables interaction with the Windows Feature Store, a component that can toggle various experimental functionality and features.
