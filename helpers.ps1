@@ -1,6 +1,6 @@
 ﻿Import-Module PowerShellForGitHub
 
-$installerFileNameRegex = 'ViVeTool-v[\d\.]+\.zip$'
+$archiveFileNameRegex = 'ViVeTool-v[\d\.]+-IntelAmd\.zip'
 $owner = 'thebookisclosed'
 $repository = 'ViVe'
 
@@ -34,7 +34,7 @@ function Get-SoftwareUri([version] $Version) {
 
     $windowsPortableArchiveAsset = $null
     foreach ($asset in $releaseAssets) {
-        if ($asset.name -match $installerFileNameRegex) {
+        if ($asset.name -match $archiveFileNameRegegexx) {
             $windowsPortableArchiveAsset = $asset
             break
         }
