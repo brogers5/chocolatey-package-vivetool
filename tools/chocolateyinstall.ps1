@@ -3,7 +3,7 @@
 Confirm-Win10 -ReqBuild 18963
 
 $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$archiveFileName = 'ViVeTool-v0.3.3.zip'
+$archiveFileName = 'ViVeTool-v0.3.4-IntelAmd.zip'
 $archiveFilePath = Join-Path -Path $toolsDir -ChildPath $archiveFileName
 
 $packageArgs = @{

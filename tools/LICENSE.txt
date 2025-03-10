@@ -1,4 +1,4 @@
-From: https://raw.githubusercontent.com/thebookisclosed/ViVe/v0.3.3/LICENSE
+From: https://raw.githubusercontent.com/thebookisclosed/ViVe/v0.3.4/LICENSE
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
