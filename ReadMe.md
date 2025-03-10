@@ -1,4 +1,5 @@
-﻿# Chocolatey Package: [ViVeTool](https://community.chocolatey.org/packages/vivetool)
+﻿<!--markdownlint-disable-next-line MD033 MD045 -->
+# Chocolatey Package: [ViVeTool](https://community.chocolatey.org/packages/vivetool)
 
 [![Latest package version shield](https://img.shields.io/chocolatey/v/vivetool.svg)](https://community.chocolatey.org/packages/vivetool)
 [![Total package download count shield](https://img.shields.io/chocolatey/dt/vivetool.svg)](https://community.chocolatey.org/packages/vivetool)
@@ -25,7 +26,7 @@ Once cloned, simply run `build.ps1`. The ZIP archive is intentionally untracked 
 
 A successful build will create `vivetool.x.y.z.nupkg`, where `x.y.z` should be the Nuspec's normalized `version` value at build time.
 
->**Note**
+>[!Note]
 >Chocolatey package builds are non-deterministic. Consequently, an independently built package's checksum will not match that of the officially published package.
 
 ## Update
